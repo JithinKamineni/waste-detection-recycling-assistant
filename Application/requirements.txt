@@ -1,0 +1,9 @@
+ultralytics
+streamlit
+pillow
+faiss-cpu
+sentence-transformers
+numpy
+opencv-python-headless
+google-genai
+python-dotenv

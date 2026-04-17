@@ -1,0 +1,9 @@
+Datasets/
+train/
+test/
+valid/
+__pycache__/
+.ipynb_checkpoints/
+*.zip
+*.rar
+*.7z
