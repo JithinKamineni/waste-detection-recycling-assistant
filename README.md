@@ -352,7 +352,3 @@ The `Models/` folder stores the final trained model files used for inference and
 **Jithin Kamineni**
 
 ---
-
-## Repository Link
-
-**Waste Detection and Recycling Assistant**
