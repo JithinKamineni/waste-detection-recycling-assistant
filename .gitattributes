@@ -2,3 +2,10 @@
 *.h5 filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
+
+# keep these detectable
+*.py linguist-detectable=true
+*.js linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.ipynb linguist-detectable=true
