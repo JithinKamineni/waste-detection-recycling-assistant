@@ -3,9 +3,14 @@
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 
-# keep these detectable
-*.py linguist-detectable=true
-*.js linguist-detectable=true
-*.html linguist-detectable=true
-*.css linguist-detectable=true
-*.ipynb linguist-detectable=true
+# Exclude big non-source sections from language stats
+Training Notebooks/** linguist-vendored
+Graphs/** linguist-vendored
+Outputs/** linguist-vendored
+Presentations/** linguist-vendored
+
+# Exclude binary model files
+Models/** linguist-vendored
+*.pt linguist-vendored
+*.pth linguist-vendored
+*.keras linguist-vendored
