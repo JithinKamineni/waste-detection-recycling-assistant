@@ -85,10 +85,10 @@ waste-detection-recycling-assistant/
 │   └── YOLOv8+RAG.pptx
 │
 ├── Training Notebooks/
-│   ├── DenseNet+EfficientNet_hybrid_model.ipynb.ipynb
-│   ├── ResNet+ViT_feature_fusion.ipynb.ipynb
-│   ├── ResNet-50.ipynb.ipynb
-│   └── YOLOv8.ipynb.ipynb
+│   ├── DenseNet+EfficientNet_hybrid_model.ipynb
+│   ├── ResNet+ViT_feature_fusion.ipynb
+│   ├── ResNet-50.ipynb
+│   └── YOLOv8.ipynb
 │
 ├── .gitattributes
 ├── .gitignore
